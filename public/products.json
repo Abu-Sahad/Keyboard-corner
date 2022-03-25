@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "A4TECH 4200N Wireless Keyboard Mouse Combo",
+    "price": 1600,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/a4tech/4200n/4200n-1-500x500.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Micropack KM-218W Keyboard and Mouse Wirelsss Combo",
+    "price": 1200,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/micropack/km-218w/km-218w-1jpg-500x500.jpg"
+  },
+  {
+    "id": 3,
+    "name": "MotoSpeed S102 USB Keyboard Mouse Combo",
+    "price": 795,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/motospeed/s102/s102-500x500.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Logitech MK215 Wireless Keyboard & Mouse Combo",
+    "price": 1650,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/logitech/mk215-keyboard-mouse/mk215-keyboard-mouse-500x500.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Apple Wireless Magic Keyboard 2 Silver",
+    "price": 15000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/Apple/magic-keyboard-2/magic-keyboard-2-500x500.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dareu EK87 Gaming Keyboard (Black)",
+    "price": 2750,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/dareu/ek87/ek87-01-500x500.jpg"
+  },
+  {
+    "id": 7,
+    "name": "MeeTion MT-C505 Keyboard Mouse",
+    "price": 3000,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/meetion/mt-c505/mt-c505-01-500x500.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Teutons Savilla Wireless Keyboard and Mouse Combo",
+    "price": 1450,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/teutons/savilla-01-500x500.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Rapoo NK1800 Wired USB Keyboard",
+    "price": 650,
+    "img": "https://www.startech.com.bd/image/cache/catalog/keyboard/rapoo/nk1800/nk1800-500x500.jpg"
+  },
+  {
+    "id": 10,
+    "name": "HAVIT KB259GCM Mini Wireless Keyboard & Mouse Combo",
+    "price": 1200,
+    "img": "https://www.startech.com.bd/image/cache/catalog/accessories/keyboard/havit/kb259gcm-mini-500x500.jpg"
+  }
+]
