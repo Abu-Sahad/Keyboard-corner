@@ -5,6 +5,7 @@ import Shop from './components/Shop/Shop';
 function App() {
   return (
     <div>
+      <h1 className='App'>Keyboard Cornar</h1>
       <Shop></Shop>
     </div>
   );
