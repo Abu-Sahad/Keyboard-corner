@@ -9,9 +9,10 @@ const Cart = (props) => {
 
     return (
         <div className='cart'>
-            <h4>Selected Clothes</h4>
+            <h4>Selected Clothes:</h4>
             <p>Name:{name}</p>
-            <span><button>CHOOSE 1 FOR ME</button><br /><button>CHOOSE AGAIN</button></span>
+            <span><button>CHOOSE 1 FOR ME</button><br />
+                <button>CHOOSE AGAIN</button></span>
 
 
 
