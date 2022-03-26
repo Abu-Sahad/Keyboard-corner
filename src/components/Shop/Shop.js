@@ -11,11 +11,29 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
-    const handleAddToCart = (product) => {
+    const handleAddToCart = (products) => {
+
         //array copy
-        const newCart = [...cart, product]
-        setCart(newCart);
+        let isExist = cart.find(product => product.id == products.id)
+        if (isExist) {
+            alert('Already selected')
+            return
+        }
+        if (cart.length > 3) {
+            alert('cannot select more then 4 item')
+            return
+        }
+        else {
+            const newCart = [...cart, products]
+            setCart(newCart);
+        }
+
     }
+    const chooseHadler = () => {
+        setCart([])
+
+    }
+
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -24,11 +42,14 @@ const Shop = () => {
                         key={product.id}
                         product={product}
                         handleAddToCart={handleAddToCart}
+
                     ></Product>)
                 }
             </div>
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart chooseHadler={chooseHadler} key={cart.id} cart={cart}></Cart>
+
+
 
             </div>
         </div>

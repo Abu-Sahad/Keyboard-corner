@@ -10,8 +10,8 @@ const Cart = (props) => {
                     <p key={product.id}>{product.name}</p>
                 ))}
             </div>
-            <span><button>CHOOSE 1 FOR ME</button><br />
-                <button>CHOOSE AGAIN</button></span>
+            <span><button onClick={props.randomhandler}>CHOOSE 1 FOR ME</button><br />
+                <button onClick={props.chooseHadler}>CHOOSE AGAIN</button></span>
 
 
 
