@@ -33,7 +33,21 @@ const Shop = () => {
         setCart([])
 
     }
+    const randomhandler = () => {
+        let randomSelect = []
+        let randomValueIndex = Math.round(Math.random() * cart.length)
+        if (randomValueIndex < cart.length) {
+            let randomProduct = cart[randomValueIndex]
+            if (randomProduct) {
+                randomSelect.push(randomProduct)
+                setCart(randomSelect)
+            }
 
+        }
+        else {
+            randomhandler()
+        }
+    }
     return (
         <div className='shop-container'>
             <div className="product-container">
@@ -47,7 +61,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-                <Cart chooseHadler={chooseHadler} key={cart.id} cart={cart}></Cart>
+                <Cart randomhandler={randomhandler} chooseHadler={chooseHadler} key={cart.id} cart={cart}></Cart>
 
 
 
